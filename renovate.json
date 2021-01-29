@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>rarkins/.github:renovate-config"
+    "local>rarkins/.github:renovate-config",
+    "docker:enableMajor"
   ]
 }
